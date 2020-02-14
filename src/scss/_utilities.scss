@@ -1,0 +1,102 @@
+.inline-block{
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    &.aling-center{
+        align-items: center;
+    }
+    &.justify-between{
+        justify-content: space-between;
+    }
+    &.direction-column{
+        flex-direction: column;
+    }
+    .align-self-{
+        &bottom{
+            align-self: flex-end;
+            justify-self: flex-end;
+        }
+    }
+
+    .column{
+        &.width-50{
+            width: 47%;
+            margin: 0 1%
+        }
+    }
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.bg-{
+    &primary{
+        background-color: $primary;
+    }
+    &light{
+        background-color: $light;
+    }
+    &lighter{
+        background-color: $lighter;
+    }
+    &dark{
+        background-color: $dark;
+    }
+    &gray{
+        background-color: $gray;
+    }
+    &success{
+        background-color: $success;
+    }
+    &error{
+        background-color: $error;
+    }
+}
+
+.mrg-20{
+    margin: 20px 0;
+}
+
+.pad-35{
+    padding: 35px;
+}
+.pad-5-15{
+    padding: 5px 15px;
+}
+.pad-5{
+    padding: 5px;
+}
+.pad-10{
+    padding: 10px;
+}
+.pad-15{
+    padding: 15px;
+}
+
+.border-top{
+    border-top: 1px solid $black;
+}
+
+.house{
+    &:first-of-type{
+        margin-top: 0;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+.height-fit-content{
+    height: fit-content;
+}

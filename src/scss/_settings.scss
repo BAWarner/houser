@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+$dark: #3B5249;
+$primary: #519872;
+$light: #AFD4C0;
+$lighter: #E5F4EC;
+$gray: #DEDEDE;
+$black: #333333;
+$white: #fefefe;
+$success: #8AEA92;
+$error: #FEC2C2;
+
+$font-family: 'Open Sans', sans-serif;
+
+body{
+    font-family: $font-family;
+    background-color: $light;
+}
+
+h1{
+    margin: unset;
+}

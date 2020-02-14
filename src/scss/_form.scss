@@ -1,0 +1,21 @@
+form{
+    max-width: 75%;
+    height: 75vh;
+    margin: 35px auto 0;
+
+    section{
+        height: 100%;
+    }
+
+    input[type='text'],
+    input[type='number']{
+        margin: 15px 0;
+        padding: 10px 5px;
+        border-radius: 2px;
+        box-shadow: unset;
+        border: 1px solid $gray;
+        font-size: 13px;
+        font-family: 'Open Sans';
+    }
+
+}
